@@ -27,7 +27,9 @@ h1:hover {
     text-align: center;
 }
 
-ol {
+.list-box {
     color: #000000;
     font-family: sans-serif;
+    width: 50%;
+    margin: 0, auto;
 }
