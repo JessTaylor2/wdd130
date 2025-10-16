@@ -1,29 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .banner {
-    background-image: url('images/w05_circles.jpg');
+    background-image: url('../images/w05_circles.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom -10px;
     min-height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    padding-right: 50px;
     color: #000000;
-    text-align: right;
-}
-
-.banner h1{
-    margin: 0;
-}
-
-.banner h3{
-    margin: 0;
 }
 
 .gray-background {
-    text-align: justify;
+    text-align: center;
     padding: 50px 0;
+    margin: 0;
     background-color: #737373;
     &::after {
         content: '';
@@ -35,9 +31,10 @@
 
 .gray-background img {
     display: inline-block;
+    margin: 0 100px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 3px solid #444444;
+    border: 10px solid #444444;
     object-fit: cover;
 }
