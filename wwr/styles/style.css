@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Walter+Turncoat&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: #005CA3;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -28,6 +31,10 @@ main section {
 
 body {
     background-color:#ffffff;
+    font-family: 'Merriweather Sans', Calibri, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -43,6 +50,10 @@ nav a:hover {
     background-color: #FFBE99;
     color: #005CA3;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -52,15 +63,22 @@ nav a:hover {
 
 .msg {
     background-color:#005CA3;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #005CA3;
     color: #C2FFE2;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: #005CA3;
+    font-family: 'Walter Turncoat', 'Goudy Old Style', Cambria, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -73,6 +91,8 @@ h4 {
 
 .msg p {
     color: #C2FFE2;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -86,6 +106,8 @@ footer a:hover {
 
 h2 {
     color: #005CA3;
+    font-family: 'Walter Turncoat', 'Goudy Old Style', Cambria, serif;
+    margin: 0;
 }
 
 .logo {
@@ -94,6 +116,7 @@ h2 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -106,4 +129,24 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+#logo-link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #C2FFE2;
+}
+
+main section img {
+    box-sizing: border-box;
 }
