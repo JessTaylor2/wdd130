@@ -23,6 +23,11 @@
   --nav-hover-background-color: #007849;
 }
 
+/*Added restraints to logo until I can resize it for the official website*/
+#logo {
+  max-width: 100px;
+}
+
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
