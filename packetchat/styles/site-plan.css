@@ -23,9 +23,13 @@
   --nav-hover-background-color: #007849;
 }
 
-/*Added restraints to logo until I can resize it for the official website*/
+/*Added restraints to logo until I can resize it for the official website, and resized wireframe images a little bit, too*/
 #logo {
   max-width: 200px;
+}
+
+.wireframe {
+  max-width: 400px;
 }
 
 
