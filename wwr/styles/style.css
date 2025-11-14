@@ -221,6 +221,34 @@ nav {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.main-faq {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #005CA3;
+}
+
+.main-faq h1 {
+    color: #C2FFE2;
+}
+
+.question-box {
+    border: 2px solid #005CA3;
+    background-color: #C2FFE2;
+    color: #005CA3;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+}
+
+.faq-image {
+    max-width: 600px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
