@@ -100,15 +100,27 @@ footer a:hover {
 .badge-product {
     grid-column: 1/2;
     padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .radio-product {
     grid-column: 3/4;
     padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .portfolio-image {
     max-width: 500px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.company-values p, .badge-product p, .radio-product p {
+    margin-top: -5px;
 }
 
 /*Questions Page*/
@@ -131,6 +143,14 @@ footer a:hover {
 }
 
 /*Contact Page*/
+
+.contact-title {
+    margin-top: 20px;
+}
+
+.contact-details {
+    margin-top: -5px;
+}
 
 .contact-info {
     padding: 0px 40px;
