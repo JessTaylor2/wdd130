@@ -141,6 +141,38 @@ footer a:hover {
     padding-bottom: 8px;
     padding-left: 30px;
     padding-right: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.question-box > summary {
+    list-style: none;
+    font-weight: 600;
+}
+
+.question-box > summary::-webkit-details-marker {
+    display: none;
+}
+
+.question-box > summary::before {
+    content: ">_";
+    color: #007849;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.2em;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.question-box[open] > summary::before {
+    color: #FFC533;
+}
+
+.question-box p {
+    font-family: "Source Sans 3", sans-serif;
+    color: #626867;
+    margin-top: 10px;
+    margin-left: 35px;
+    line-height: 1.5;
 }
 
 /*Contact Page*/
