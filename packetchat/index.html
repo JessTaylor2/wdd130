@@ -11,12 +11,19 @@
         <header>
             <div class="logo-box">
                 <img class="logo" src="images/packetchat-metal-logo.png" alt="PacketChat metallic logo">
+                <button class="hamburger" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
             </div>
-            <nav class="header-links">
-                <a href="index.html">Home</a>
-                <a href="frequentlyasked-questions.html">Questions?</a>
-                <a href="contact-us.html">Contact Us</a>
-            </nav>
+            <div  class="header-links">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="frequentlyasked-questions.html">Questions?</a>
+                    <a href="contact-us.html">Contact Us</a>
+                </nav>
+            </div>
         </header>
         <main>
             <div class="company-values">
@@ -45,5 +52,22 @@
         <p>PacketChat (updated 2025, by Jessica Taylor)</p>
         <p><a href="https://jesstaylor2.github.io/wdd130/packetchat/site-plan.html">PacketChat Site Plan Website</a></p>
     </footer>
+    <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".header-links");
+
+    hamburger.addEventListener("click", () => {
+        // Toggle the "active" class on both the button and the menu
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    });
+
+    document.querySelectorAll("nav a").forEach(link => 
+        link.addEventListener("click", () => {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        })
+    );
+</script>
 </body>
 </html>
