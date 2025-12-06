@@ -282,11 +282,16 @@ footer a:hover {
         width: auto;
         max-width: 100%;
         padding: 0 20px;
-        row-gap: 50px;
+        row-gap: 10px;
     }
 
     .portfolio-title, .badge-product, .radio-product {
         grid-column: auto;
+    }
+
+    .badge-product, .radio-product {
+        padding: 0;
+        margin-bottom: 50px;
     }
 
     .portfolio-image {
