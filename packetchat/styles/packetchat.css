@@ -271,6 +271,47 @@ footer a:hover {
     color: #007849;
 }
 
+/*Thank You Page*/
+
+.success-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.success-content {
+    max-width: 600px;
+}
+
+.success-content h1 {
+    color: #007849;
+    margin-bottom: 15px;
+}
+
+.success-content p {
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+}
+
+.home-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007849;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #FFC533;
+    color: #007849;
+}
+
 /*Media Queries*/
 
 @media screen and (max-width: 900px) {
