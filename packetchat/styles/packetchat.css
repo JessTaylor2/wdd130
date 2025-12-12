@@ -431,8 +431,6 @@ footer a:hover {
     .hero-banner {
         height: 100px;
         background-position: center top;
-        /*justify-content: flex-start;
-        padding-top: 30px;*/
     }
 
     .hero-content h1 {
