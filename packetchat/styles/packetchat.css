@@ -429,11 +429,13 @@ footer a:hover {
     }
 
     .hero-banner {
-        height: 250px;
+        height: 180px;
         background-position: center top;
+        justify-content: flex-start;
+        padding-top: 30px;
     }
 
     .hero-content h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 }
