@@ -306,6 +306,10 @@ footer a:hover {
 /*Dedicated Product Pages*/
 
 .back-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 30px;
     text-align: center;
@@ -347,6 +351,34 @@ footer a:hover {
 .product-content p {
     margin-bottom: 25px;
     margin-top: -5px;
+}
+
+.image-gallery {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.image-gallery h2 {
+    margin-bottom: 15px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image-grid img:hover {
+    transform: scale(1.04);
 }
 
 /*Media Queries*/
