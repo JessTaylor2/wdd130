@@ -377,6 +377,7 @@ footer a:hover {
 .image-grid img {
     height: 200px;
     width: auto;
+    max-width: 100%;
     flex-grow: 1;
     object-fit: cover;
     cursor: pointer;
@@ -595,5 +596,9 @@ footer a:hover {
     .lightbox-content {
         margin-top: 85px;
         max-height: 70vh;
+    }
+
+    .image-grid img {
+        height: 160px;
     }
 }
