@@ -578,10 +578,15 @@ footer a:hover {
     }
 
     .prev {
-        left: 20px;
+        left: 10px;
     }
 
     .next {
-        right: 20px;
+        right: 10px;
+    }
+
+    .lightbox-content {
+        margin-top: 85px;
+        max-height: 70vh;
     }
 }
