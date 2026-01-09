@@ -600,5 +600,12 @@ footer a:hover {
 
     .image-grid img {
         height: 160px;
+        flex-grow: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .image-grid {
+        justify-content: center;
     }
 }
