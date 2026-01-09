@@ -212,7 +212,7 @@ footer a:hover {
 /*Contact Page*/
 
 .hero-banner {
-    background-image: url('../images/Circuit-Board-Closeup-V2.jpg');
+    background-image: url('../images/Circuit-Board-Closeup-V2\(Progressive\).jpg');
     background-size: cover;
     background-position: center 30%;
     background-repeat: no-repeat;
@@ -369,17 +369,24 @@ footer a:hover {
 }
 
 .image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
-    justify-content: center;
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .image-grid img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
+    height: 200px;
+    width: auto;
+    flex-grow: 1;
+    object-fit: cover;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image-grid::after {
+    content: "";
+    flex-grow: 10;
+    display: block;
 }
 
 .image-grid img:hover {
